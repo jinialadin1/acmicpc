@@ -3,13 +3,6 @@
 #define MAX_BROKEN 10
 #define MAX_INT 987654321
 
-int FindMinBias(bool broken[], int target){
-    //check the digit of input target channel
-    int digit=0;
-    for(int i=target;i>0;i/=10) digit++;
-    
-}
-
 int main(){
     int Channel, num_broken, MadeChannel=0, digit=0;
     bool broken[MAX_BROKEN];
@@ -30,23 +23,31 @@ int main(){
             broken[temp]=true;
         }
         
-        
+        //check the digit of input target channel
+        for(int i=Channel;i>0;i/=10) digit++;
+        int temp_digit=digit;
         while(temp_digit--){
             int min=MAX_INT, min_digit=-1;
+            int target_digit = (Channel/(int) pow(10,temp_digit))%10;
             
-            for(int i=0;i<10;++i){
-                if(!broken[i]){
-                    int temp=(int) abs(Channel-i*pow(10,temp_digit)-MadeChannel);
-                    if(min>temp){
-                        min=temp;
-                        min_digit=i;
+            if(!broken[target_digit]){
+                min_digit=target_digit;
+            }
+            else{
+                for(int i=0;i<10;++i){
+                    if(!broken[i]){
+                        int temp=(int) abs(Channel-i*pow(10,temp_digit)-MadeChannel);
+                        if(min>temp){
+                            min=temp;
+                            min_digit=i;
+                        }
                     }
                 }
             }
             
             MadeChannel+=min_digit*(int)pow(10,temp_digit);
         }
-        std::cout<<(int) abs(Channel-MadeChannel)+digit<<'\n';
+        std::cout<<std::min((int) abs(Channel-MadeChannel)+digit, (int) abs(Channel-100))<<'\n';
     }
     
     
