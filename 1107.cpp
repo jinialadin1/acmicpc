@@ -1,4 +1,3 @@
-    
 #include <bits/stdc++.h>
 
 #define MAX_BROKEN 10
