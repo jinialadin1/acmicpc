@@ -114,6 +114,7 @@ int main(){
             if(min_digit10!=0) digit++;
             min_bias=min;
             //
+            //
         }
         
         
