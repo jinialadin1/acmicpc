@@ -19,7 +19,7 @@ void HanoiProcess(int n,int from, int to){
         std::cout<<surplus<<' '<<to<<'\n';
     }
     
-    //f(n)=f(n-2)+f(2)
+    //f(n)=f(n-2)+f(2) 
     else{
         HanoiProcess(n-2,1,3);
         std::cout<<"1 2\n";
