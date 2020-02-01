@@ -23,3 +23,5 @@ Every week, there will be a new folder name **MMDDYY**.
 Please upload your code in the folder as *NAME_PROBLEM#.cpp* (ex) hj_1033.cpp  
   
 For your convenience, I recommend you to use **"bits/stdc++.h"** which include all useful headers to solve problem.
+
+In the **prac** folder, you can upload your code that you just solve it for your own study.
