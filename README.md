@@ -20,7 +20,7 @@ We will review our code after the practice end, so please commit your code file
 
 You have to commit your code in proper name.  
 Every week, there will be a new folder name **MMDDYY**.  
-Please upload your code in the folder as *NAME_PROBLEM#.cpp* (ex) hj_1033.cpp  
+Please upload your code in the folder as *NAME_SET.PROBLEM#.cpp* (ex) hj_1.cpp  
   
 For your convenience, I recommend you to use **"bits/stdc++.h"** which include all useful headers to solve problem.
 
