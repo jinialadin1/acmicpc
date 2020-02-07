@@ -41,5 +41,5 @@ In the **prac** folder, you can upload your code that you just solve it for your
      - [10448](https://www.acmicpc.net/problem/10448)
      
 
-- Divide and Conquer
+- [Divide and Conquer 020820](https://github.com/jinialadin1/acmicpc/tree/master/020820)
 	- 
