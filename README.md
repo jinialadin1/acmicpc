@@ -1,3 +1,4 @@
+
 # Algorithm & Data Structure practice
 
 This is the practice repository for algorithm and data structure study.  
@@ -25,3 +26,20 @@ Please upload your code in the folder as *NAME_SET.PROBLEM#.cpp* (ex) hj_1.cpp
 For your convenience, I recommend you to use **"bits/stdc++.h"** which include all useful headers to solve problem.
 
 In the **prac** folder, you can upload your code that you just solve it for your own study.
+
+
+# Study Case
+ - [Brute Force 020120](https://github.com/jinialadin1/acmicpc/tree/master/020120)
+	 - we learn how to solve problem by finding every possible path.  
+	 It might be slow (which menas time complexity of code is larger than **O(N^2)**)  
+	 but easy to understand, and can be an effectivie start point to find new algorithm  
+   - Assignment Problem
+     - [1018](https://www.acmicpc.net/problem/1018)
+     - [1182](https://www.acmicpc.net/problem/1182)
+     - [1051](https://www.acmicpc.net/problem/1051)
+     - [14717](https://www.acmicpc.net/problem/14717)
+     - [10448](https://www.acmicpc.net/problem/10448)
+     
+
+- Divide and Conquer
+	- 
