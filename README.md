@@ -47,4 +47,7 @@ In the **prac** folder, you can upload your code that you just solve it for your
      - [2448](https://www.acmicpc.net/problem/2448)
      - [11729](https://www.acmicpc.net/problem/11729)
      - [1517](https://www.acmicpc.net/problem/1517)
-
+     - [2261](https://www.acmicpc.net/problem/2261)
+     - [6549](https://www.acmicpc.net/problem/6549)
+     - [1780](https://www.acmicpc.net/problem/1780)
+     - [3015](https://www.acmicpc.net/problem/3015)
