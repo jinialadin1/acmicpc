@@ -42,7 +42,9 @@ In the **prac** folder, you can upload your code that you just solve it for your
      
 
  - [Divide and Conquer 020820](https://github.com/jinialadin1/acmicpc/tree/master/020820)
-     - WILL BE ADDED
+     - Divide and Conquer Algorithm is a method which can solve problem more faster than Brute Force.
+	 This strategy divide problem into small problems, then solve divided problems.
+	 After solve fragmented problems, merge divided anwsers and acquire final answer.
    - Assignment Problem
      - [2448](https://www.acmicpc.net/problem/2448)
      - [11729](https://www.acmicpc.net/problem/11729)
